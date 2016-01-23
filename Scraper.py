@@ -31,7 +31,3 @@ results = '\n'.join(list) # create a string from the list
 
 #  Copy the extracted text to clipboard
 pyperclip.copy(results) # copy the results to clipboard
-
-# results = '\n'.join("(%s,%s)" % tup for tup in tuples)
-# dictionary = dict(zip(extractedEmail, extractedAmount)) # Create a dictionary to pair the e-mails and amounts
-# results = '\n'.join(['%s;%s' % (key, value) for (key, value) in dictionary.items()]) # Create a string by iterating over the items in the dictionary
